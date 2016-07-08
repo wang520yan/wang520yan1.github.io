@@ -1,0 +1,244 @@
+<!DOCTYPE  html>
+<html>
+	<head>
+		<meta charset="gb2312">
+		<title>联系我</title>
+		
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/social-icons.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+		<!--[if IE 7]>
+			<link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo('template_url') ?>/css/ie7-hacks.css" />
+		<![endif]-->
+		<!--[if IE 8]>
+			<link rel="stylesheet" type="text/css" media="screen" href="<?php bloginfo('template_url') ?>/css/ie8-hacks.css" />
+		<![endif]-->
+		<!-- ENDS CSS -->	
+
+		<link rel="Stylesheet" type="text/css" href="js/scroller/css/smoothDivScroll.css" />
+		
+		<!--[if IE]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!-- ENDS JS -->
+		
+		<!-- GOOGLE FONTS -->
+		
+		
+		<!-- Skin -->
+		<link rel="stylesheet" href="skins/light.css"  type="text/css" media="screen" id="css-skins" />
+		
+	</head>
+	<body>
+		
+
+		<!-- Navigation -->
+		<div id="nav-wrapper">
+			<ul id="nav" class="sf-menu">
+				<li class="logo"><a href="index.html"><img src="img/logo.png" alt="Elliot" id="logo" ></a></li>
+				<li><a href="index.html">主页</a></li>
+				<li><a href="gallery.html">画廊</a></li>
+				<li><a href="page.html">展示</a>
+					<ul>
+						<li><a href="page.html">第一页</a></li>
+						<li><a href="page-fullwidth.html">第二页</a></li>
+						<li><a href="page-wide.html">第三页</a></li>
+						<li><a href="page-wide1.html">第四页</a></li>
+					</ul>
+				</li>
+				<li><a href="blog.html">博客</a></li>
+				<li class="current-menu-item"><a href="contact.html">联系</a></li>
+				
+				<li class="social">
+					<!-- Social -->
+					<a href="#" class="poshytip  facebook" title="Become a fan"></a>
+					<a href="#" class="poshytip  twitter" title="Follow my tweets"></a>
+					<a href="#" class="poshytip  dribbble" title="Working on..."></a>
+					<a href="http://forrst.me/ansimuz" class="poshytip  forrst" title="Working on..."></a>
+					<!-- ENDS Social -->
+				</li>
+				
+				<li class="search-box">
+					<form  method="get" id="searchform" action="#">
+						<input type="text" value="Search..." name="s" id="s" onfocus="defaultInput(this,'Search...')" onblur="clearInput(this,'Search...')" />
+					</form>		
+				</li>
+				
+				
+			</ul>
+		</div>
+		<!-- Navigation -->
+		
+		<!-- Page wrap -->
+		<div id="page-wrap">
+				
+			<!-- content -->
+			<div id="content">
+					
+				<h2 class="title-divider">联系我</h2>	
+				
+				
+				<div id="map"></div>
+				
+				
+				<p>有什么问题可以发邮件联系哦，谢谢你的反馈，我会及时处理的。</p>	
+				
+				<h2 class="title-divider">联系表格</h2>			
+				<!-- form -->
+				<script type="text/javascript" src="js/form-validation.js"></script>
+				<form id="contactForm" action="#" method="post">
+					<fieldset>
+						<div>
+							<input name="name"  id="name" type="text" class="form-poshytip" title="Enter your full name" />
+							<label>姓名</label>
+						</div>
+						<div>
+							<input name="email"  id="email" type="text" class="form-poshytip" title="Enter your email address" />
+							<label>邮箱</label>
+						</div>
+						<div>
+							
+							<input name="web"  id="web" type="text" class="form-poshytip" title="Enter your website" />
+							<label>网站</label>
+						</div>
+						<div>
+							<textarea  name="comments"  id="comments" rows="5" cols="20" class="form-poshytip" title="Enter your comments"></textarea>
+						</div>
+						
+						<!-- send mail configuration -->
+						<input type="hidden" value="youremail@server.com" name="to" id="to" />
+						<input type="hidden" value="From elliot wordpress online" name="subject" id="subject" />
+						<input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl" />
+						<!-- ENDS send mail configuration -->
+						
+						<p><input type="button" value="发送" name="submit" id="submit" /></p>
+					</fieldset>
+					<p id="error" class="warning">消息</p>
+				</form>
+				<p id="success" class="success">感谢你的反馈</p>
+				<!-- ENDS form -->	
+				
+	    	</div>
+	    	<!-- ENDS content -->
+	    	
+	    	<!-- Sidebar -->
+	    	<div id="sidebar">
+				<h6 class="side-title">联系资料</h6>
+				
+				<p> 我的信息</p>
+				
+				<p class="contact-data">
+					<span class="ico-tel">13952231452</span>
+					<span class="ico-email"><a href="mailto:info@elliot.com">2414603506@qq.com</a></span>
+				</p>
+				
+				<p>中国矿业大学南湖校区<br/>
+				 </p>
+	    	</div>
+	    	<!-- ENDS Sidebar -->
+	        
+        </div>
+		<!-- ENDS Page wrap -->
+		
+   			
+		<!-- Footer -->
+		<div id="footer-container">
+			<div id="footer-open"><a href="#"></a></div>
+	         <div id="footer-overlay">
+	         	<div id="footer-wrapper">
+	         		<div class="footer-col">
+	         			<h6>Text widget</h6>
+	         			<p><a href="#/item/elliot-wordpress/470916?ref=Ansimuz" ><img src="img/dummies/banner.gif" class="borderer" alt="Pic" width="200" /></a></p>
+	         			<p>Elliot is a free HTML template for personal and commercial projects made by <a href="http://www.cssmoban.com" >luiszuno.com</a></p>
+	         		</div>
+	         		<div class="footer-col">
+	         			<h6>Recent posts</h6>
+	         			<ul>
+							<li><a href="#">Quisque sit amet est et sapien ullamcorper pharetra.</a></li>
+							<li><a href="#">Morbi tristique senectus et netus. Donec eu libero sit amet quam egestas semper.</a></li>
+							<li><a href="#">Eleifend sit amet est et sapien ullamcorper pharetra.</a></li>
+							<li><a href="#">Vestibulum erat wisi, condimentum sed. Donec eu libero sit amet quam egestas semper.</a></li>
+							<li><a href="#">Morbi tristique senectus et netus.</a></li>
+						</ul>
+	         		</div>
+	         		
+	         		<div id="tweets" class="footer-col tweet">
+	         			<h6>Twitter widget</h6>
+	         			<script src="js/chirp.min.js"></script>
+	         			<script>Chirp({user:'ansimuz',max:2})</script>
+	         		</div>
+	         	</div>
+	         </div>
+	         
+	     </div>
+	     <!-- ENDS Footer -->
+        
+        
+	  
+	  	<!-- JS -->
+		<!-- jQuery library - Please load it from Google API's -->
+		<script src="js/jquery.min.js" ></script>
+	
+		<!-- Smoothscroller -->
+		<!-- jQuery UI Widget and Effects Core (custom download)
+		     You can make your own at: http://jqueryui.com/download -->
+		<script src="js/scroller/js/jquery-ui-1.8.23.custom.min.js" ></script>
+		
+		<!-- Latest version (3.0.6) of jQuery Mouse Wheel by Brandon Aaron
+		     You will find it here: http://brandonaaron.net/code/mousewheel/demos -->
+		<script src="js/scroller/js/jquery.mousewheel.min.js" ></script>
+	
+		<!-- jQuery Kinectic (1.5) used for touch scrolling -->
+		<script src="js/scroller/js/jquery.kinetic.js" ></script>
+	
+		<!-- Smooth Div Scroll 1.3 minified-->
+		<script src="js/scroller/js/jquery.smoothdivscroll-1.3-min.js" ></script>
+		<!-- ENDS Smoothscroller -->
+	     
+	     
+		<script src="js/quicksand.js"></script>
+		
+		<!-- prettyPhoto -->
+		<script  src="js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+		<link rel="stylesheet" href="js/prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen" />
+		<!-- ENDS prettyPhoto -->
+		
+		<!-- superfish -->
+		<link rel="stylesheet" media="screen" href="css/superfish.css" /> 
+		<script  src="js/superfish-1.4.8/js/hoverIntent.js"></script>
+		<script  src="js/superfish-1.4.8/js/superfish.js"></script>
+		<script  src="js/superfish-1.4.8/js/supersubs.js"></script>
+		<!-- ENDS superfish -->
+		
+		<!-- poshytip -->
+		<link rel="stylesheet" href="js/poshytip-1.0/src/tip-twitter/tip-twitter.css" type="text/css" />
+		<link rel="stylesheet" href="js/poshytip-1.0/src/tip-yellowsimple/tip-yellowsimple.css" type="text/css" />
+		<script  src="js/poshytip-1.0/src/jquery.poshytip.min.js"></script>
+		<!-- ENDS poshytip -->
+
+		<script  src="js/backstretch.js"></script>
+		<script  src="js/custom.js"></script>
+		<!-- ENDS JS -->
+		
+		<!-- Map script -->
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+		<script src="js/gmaps.js"></script>
+        <script type="text/javascript">
+		var map;
+		$(document).ready(function(){
+			map = new GMaps({
+				div: '#map',
+				lat: -12.043333,
+				lng: -77.028333
+			});
+			map.addMarker({
+			  lat: -12.043333,
+			  lng: -77.028333
+			});
+	    });
+	  </script>
+	  <!-- ENDS Map script -->
+
+	  
+	</body>
+</html>
